@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../components/Container'
 import Flex from '../components/Flex'
+import Section from '../components/Section'
 import Button from '../components/Button'
 import BannerImg from '../assets/banner.png'
 import { FaRegPaperPlane } from "react-icons/fa";
@@ -9,7 +10,7 @@ import Image from '../components/Image'
 
 const Banner = () => {
     return (
-        <section className='bg-back py-40'>
+        <Section className='bg-back py-40'>
             <Container>
                 <Flex className='gap-2 items-center'>
                     <div className='w-7/12'>
@@ -29,7 +30,7 @@ const Banner = () => {
                     <Image className='w-5/12' src={BannerImg}/>
                 </Flex>
             </Container>
-        </section>
+        </Section>
     
     )
 }
