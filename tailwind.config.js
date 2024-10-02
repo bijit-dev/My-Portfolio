@@ -24,6 +24,8 @@ export default {
       },
       spacing: {
         'w806': '806px',
+        'w270': '270px',
+
       }
     },
   },
