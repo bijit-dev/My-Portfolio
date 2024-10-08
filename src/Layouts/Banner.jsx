@@ -22,7 +22,7 @@ const Banner = () => {
                         <Flex className="gap-6">
                             <div className='group flex items-center text-base font-pop font-meduim sm:text-lg md:text-2xl font-bold relative'><Button className="py-4 pl-8 pr-15" text="HIRE ME" /><RiExternalLinkLine className='text-secondary absolute top-5 right-6 '/></div>
                             
-                            <div className='group flex items-center text-base bg-transparent hover:bg-blue-800 text-red-400 hover:text-white font-pop font-meduim sm:text-lg md:text-2lg font-bold pl-6 pr-12 border-lime-500 hover:border-orange-400 rounded-[40px] border-2 relative'><a href="#">Contact Me</a><FaRegPaperPlane className='text-red-400 group-hover:text-white absolute top-5 right-5 ' /></div>
+                            <div className='group flex items-center text-base bg-transparent hover:bg-green-600/30 text-red-400 hover:text-white font-pop font-meduim sm:text-lg md:text-2lg font-bold pl-6 pr-12 border-lime-500 hover:border-orange-400 rounded-[40px] border-2 relative'><a href="#">Contact Me</a><FaRegPaperPlane className='text-red-400 group-hover:text-white absolute top-5 right-5 ' /></div>
                             
                         </Flex>
                     </div>

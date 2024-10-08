@@ -4,7 +4,7 @@ import Flex from '../components/Flex'
 import Section from '../components/Section'
 import Button from '../components/Button'
 import Image from '../components/Image'
-import pic from '../assets/banner.png'
+import logo from '../assets/Logo.png'
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
         <h6 className='lg:w-w806 sm:mx-4 lg:mx-auto text-center mx-auto text-sm  md:text-base  lg:text-lg text-black font-robo font-normal  pt-4 sm:leading-7'>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</h6>
         </div>
         <Flex className='gap-5'>
-          <Image src={pic} />
+          <Image src={logo} className='w-full px-12 rounded-[50%]' />
           <div>
           <Flex className='gap-5'>
             <div className='bg-white rounded-lg drop-shadow-l w-w270 pb-4 h-40'>
@@ -30,7 +30,7 @@ const About = () => {
             </div>
           </Flex>
             <p className=' w-full md:text-left text-center px-4 md:px-0 text-black text-sm md:text-base  lg:text-lg font-normal font-robo pt-10 pb-8 sm:leading-7 sm:px-4 md:mx-auto'>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
-            <Button className='bg-blue-700 text-white' text='Download CV'/>
+            <Button className='bg-green-500  text-white' text='Download CV'/>
           </div>
         </Flex>
       </Container>
