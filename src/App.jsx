@@ -5,6 +5,9 @@ import About from './Layouts/About'
 import Skills from './Layouts/Skills'
 import Project from './Layouts/Project'
 import Education from './Layouts/Education'
+import Blog from './Layouts/Blog'
+import Contact from './Layouts/Contact'
+import Footer from './Layouts/Footer'
 
 
 const App = () => {
@@ -15,7 +18,10 @@ const App = () => {
             <About />
             <Skills />
             <Project/>
-            <Education/>
+            <Education />
+            <Blog />
+            <Contact />
+            <Footer />
         </>
     )
 }
