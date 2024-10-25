@@ -26,6 +26,8 @@ export default {
       spacing: {
         'w806': '806px',
         'w270': '270px',
+        'w650': '650px',
+        
 
       }
     },

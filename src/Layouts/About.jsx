@@ -30,7 +30,7 @@ const About = () => {
             </div>
           </Flex>
             <p className=' w-full md:text-left text-center px-4 md:px-0 text-black text-sm md:text-base  lg:text-lg font-normal font-robo pt-10 pb-8 sm:leading-7 sm:px-4 md:mx-auto'>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
-            <Button className='bg-green-500  text-white' text='Download CV'/>
+            <Button className='bg-green-700 lg:hover:text-white' text='Download CV'/>
           </div>
         </Flex>
       </Container>
