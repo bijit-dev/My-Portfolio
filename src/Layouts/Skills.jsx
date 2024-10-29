@@ -12,7 +12,7 @@ const Skills = () => {
         <section className='bg-cyan-800 py-28'>
             <Container>
                 <div className='border-b border-white  text-center mb-6'>
-                    <h1 className='text-3xl sm:text-4xl md:text-4xl lg:text-5xl text-design mb-12 font-extrabold'>Skills</h1>
+                    <h1 className='text-3xl sm:text-4xl md:text-4xl lg:text-5xl text-design mb-12 font-extrabold'>MY Skills</h1>
                     <p className='text-white pb-2 text-lg px-5'>We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</p>
                 </div>
                 <div className='grid md:grid-cols-3 lg:grid-cols-5 gap-4 mx-5 md:mx-3 lg:mx-0'>

@@ -2,11 +2,10 @@ import React from 'react'
 import Image from './Image'
 import Flex from './Flex'
 import Button from './Button'
-import project from '../assets/project.png'
 
 const ProjectCard = ({src,title}) => {
     return (
-        <div className='w-full border-2 border-slate-100 rounded-xl p-6 hover:border-design'>
+        <div className='w-full border-2 border-slate-100 rounded-xl p-6 hover:border-design shadow-lg lg:hover:shadow-design'>
             <Image src={src} className= 'w-full'/>
             <h2 className='text-lg font-bold text-white mt-2 mb-2'>{title}</h2>
             <ul className='grid grid-cols-4 gap-3 text-sm  text-center font-medium mb-4'>
