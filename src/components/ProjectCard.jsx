@@ -17,9 +17,9 @@ const ProjectCard = ({src,title}) => {
                 <li className='bg-slate-950 bg-opacity-45 px-2 py-1 rounded-md m-1 transition-transform transform hover:scale-110 text-white md:hover:text-design'>html</li>
             </ul>
 
-            <Flex className='justify-between'>
-                <Button text='Live link'/>
-                <Button text='Github link'/>
+            <Flex className='flex justify-between'>
+                <Button className='px-3 lg:px-12' text='Live link'/>
+                <Button className='px-3 lg:px-12' text='Github link'/>
             </Flex>
         </div>
     )

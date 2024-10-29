@@ -5,7 +5,7 @@ import hpi from '../assets/hpi.png'
 
 const EducationCard = () => {
     return (
-        <div className='bg-transparent w-w650 mx-auto border-2 rounded-xl border-design shadow-lg shadow-design/50 p-4'>
+        <div className='bg-transparent md:w-w650 mx-5 md:mx-auto border-2 rounded-xl border-design shadow-lg shadow-design/50 p-4'>
             <Flex className='gap-5 items-center'>
                 <Image className='h-12 rounded-lg ' src={hpi}/>
                 <div>
@@ -15,7 +15,7 @@ const EducationCard = () => {
                 </div>
             </Flex>
             <p className='text-gray-400 text-sm font-medium py-4'>Grade: Not Published Yet</p>
-            <p className='text-gray-400 text-base font-medium'>I have completed of the Diploma in Computer Science & Engineering at Habiganj Polytechnic Institue. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.</p>
+            <p className='text-gray-400 text-sm text-justify md:text-base font-medium'>I have completed of the Diploma in Computer Science & Engineering at Habiganj Polytechnic Institue. I have taken courses in Data Structures, Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.</p>
         </div>
     )
 }
