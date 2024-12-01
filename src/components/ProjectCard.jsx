@@ -5,7 +5,7 @@ import Button from './Button'
 
 const ProjectCard = ({src,title}) => {
     return (
-        <div className='w-full border-2 border-slate-100 rounded-xl p-6 hover:border-design shadow-lg lg:hover:shadow-design'>
+        <div className='w-[360px] border-2 border-slate-100 rounded-xl p-6 hover:border-design shadow-lg lg:hover:shadow-design'>
             <Image src={src} className= 'w-full'/>
             <h2 className='text-lg font-bold text-white mt-2 mb-2'>{title}</h2>
             <ul className='grid grid-cols-4 gap-3 text-sm  text-center font-medium mb-4'>
@@ -17,8 +17,8 @@ const ProjectCard = ({src,title}) => {
             </ul>
 
             <Flex className='flex justify-between'>
-                <Button className='px-3 lg:px-12' text='Live link'/>
-                <Button className='px-3 lg:px-12' text='Github link'/>
+                <Button className='px-3 lg:px-5' text='Live link'/>
+                <Button className='px-3 lg:px-5' text='Github link'/>
             </Flex>
         </div>
     )
